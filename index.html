@@ -46,6 +46,8 @@
       article {
         @apply p-4 border border-cyan-600 rounded-lg hover:shadow-md transition text-base bg-white;
       }
+      ul {@apply list-['☆'] list-outside ms-6 space-y-1 mb-3 marker:text-cyan-600}
+      ul li {@apply ps-2 mb-1 text-sm}
     }
 
     @layer components {
@@ -100,7 +102,9 @@
         <article>
           <h3>La consola. Tipos de variable,<br>operadores y expresiones</h3>
           <details open><summary>Material de consulta</summary>
-            <p>&#9734; <a href="https://contenido-vario.github.io/js1/conversion-variables/recogervariables.html" target="_blank" rel="noopener">Variables y Tipos de Datos en JS</a></p>
+            <ul>
+              <li><a href="https://contenido-vario.github.io/js1/conversion-variables/recogervariables.html" target="_blank" rel="noopener">Variables y Tipos de Datos en JS</a></li>
+            </ul>
           </details>
           <details open><summary>Ejercicios</summary>          
           </details>
@@ -111,102 +115,143 @@
           <details open><summary>Material de consulta</summary>
           </details>
           <details open><summary>Ejercicios</summary>
-            <p>&#9734; <a href="https://contenido-vario.github.io/js1/test/index.html" target="_blank" rel="noopener">Test Divertido</a></p>
-            <p>&#9734; <a href="https://contenido-vario.github.io/js1/test/ResultadoTest.pdf" target="_blank" rel="noopener">Instrucciones Test Divertido</a></p>              
+            <ul>
+              <li><a href="https://contenido-vario.github.io/js1/test/index.html" target="_blank" rel="noopener">Test Divertido</a></li>
+              <li><a href="https://contenido-vario.github.io/js1/test/ResultadoTest.pdf" target="_blank" rel="noopener">Instrucciones Test Divertido</a></li>
+            </ul>              
           </details>
         </article>
-
-
 
         <article>
           <h3>Entrada y Salida de Datos</h3>
           <details open><summary>Material de consulta</summary>
           </details>
           <details open><summary>Ejercicios</summary>
-            <p>&#9734; <a href="https://contenido-vario.github.io/js1/ejerciciosio.html" target="_blank" rel="noopener">Entrada / Salida de Datos</a></p> 
+            <ul>
+              <li><a href="https://contenido-vario.github.io/js1/ejerciciosio.html" target="_blank" rel="noopener">Entrada / Salida de Datos</a></li>
+            </ul>
           </details>
         </article>
 
         <article>
           <h3><code>arrays</code> y Números Random</h3>
           <details open><summary>Material de consulta</summary>
-            <p>&#9734; <a href="https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array" target="_blank" rel="noopener">Arrays</a></p>
-            <p>&#9734; <a href="https://www.w3schools.com/js/js_array_methods.asp" target="_blank" rel="noopener">Métodos de Array</a></p>
-            <p>&#9734; <a href="https://elblogdelprogramador.com/posts/manipulacion-avanzada-arrays-splice-javascript/#gsc.tab=0" target="_blank" rel="noopener">.splice()</a></p>
+            <ul>            
+              <li><a href="https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array" target="_blank" rel="noopener">Arrays</a></li>
+              <li><a href="https://www.w3schools.com/js/js_array_methods.asp" target="_blank" rel="noopener">Métodos de Array</a></li>
+              <li><a href="https://elblogdelprogramador.com/posts/manipulacion-avanzada-arrays-splice-javascript/#gsc.tab=0" target="_blank" rel="noopener">.splice()</a></li>
+            </ul>
           </details>
           <details open><summary>Ejercicios</summary>
-            <p>&#9734; <a href="https://contenido-vario.github.io/js1/array/galletitas.html" target="_blank" rel="noopener">Arrays + Random. Galletas de la Fortuna</a></p> 
-            <p>&#9734; <a href="https://contenido-vario.github.io/js1/arrays.html" target="_blank" rel="noopener">Ejercicios con Arrays</a></p>            
+            <ul>            
+              <li><a href="https://contenido-vario.github.io/js1/array/galletitas.html" target="_blank" rel="noopener">Arrays + Random.<br>Galletas de la Fortuna</a></li> 
+              <li><a href="https://contenido-vario.github.io/js1/arrays.html" target="_blank" rel="noopener">Ejercicios con Arrays</a></li>
+            </ul>
           </details>
         </article>
 
         <article>
           <h3>Estructuras condicionales.<br> Operadores lógicos y de comparación</h3>
           <details open><summary>Material de consulta</summary>
-            <p>&#9734; <a href="https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/if...else" target="_blank" rel="noopener">if ... else</a></p>
-            <p>&#9734; <a href="https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Operators/Conditional_operator" target="_blank" rel="noopener">Operador condicional (ternario)</a></p>
-            <p>&#9734; <a href="https://lenguajejs.com/javascript/tipos/falsy-truthy/" target="_blank" rel="noopener">Falsy / Truthy</a></p>
+            <ul>
+              <li><a href="https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/if...else" target="_blank" rel="noopener">if ... else</a></li>
+              <li><a href="https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Operators/Conditional_operator" target="_blank" rel="noopener">Operador condicional (ternario)</a></li>
+              <li><a href="https://lenguajejs.com/javascript/tipos/falsy-truthy/" target="_blank" rel="noopener">Falsy / Truthy</a></li>
+            </ul>
           </details>
           <details open><summary>Ejercicios</summary>
-            <p>&#9734; <a href="https://contenido-vario.github.io/js1/condicionales.html" target="_blank" rel="noopener">Ejercicios condicionales</a></p> 
-            <p>&#9734; <a href="https://contenido-vario.github.io/js1/friotibiocaliente/index.html" target="_blank" rel="noopener">Frio / Tibio / Caliente</a></p> 
+            <ul>
+              <li><a href="https://contenido-vario.github.io/js1/condicionales.html" target="_blank" rel="noopener">Ejercicios condicionales</a></li> 
+              <li><a href="https://contenido-vario.github.io/js1/friotibiocaliente/index.html" target="_blank" rel="noopener">Frio / Tibio / Caliente</a></li>
+            </ul> 
           </details>
         </article>
 
         <article>        
           <h3>Bucles y métodos de <code>String</code></h3>
           <details open><summary>Material de consulta</summary>
-            <p>&#9734; <a href="https://contenido-vario.github.io/js1/for.html" target="_blank" rel="noopener">Bucle <code>for</code></a></p>
-            <p>&#9734; <a href="https://contenido-vario.github.io/js1/while-dowhile.html" target="_blank" rel="noopener">Bucles <code>while</code> y <code>do ... while</code></a></p>
-            <p>&#9734; <a href="https://es.javascript.info/operators#incremento-decremento" target="_blank" rel="noopener">Operadores de Incremento | Decremento</a></p>
+            <ul>
+              <li><a href="https://contenido-vario.github.io/js1/for.html" target="_blank" rel="noopener">Bucle <code>for</code></a></li>
+              <li><a href="https://contenido-vario.github.io/js1/while-dowhile.html" target="_blank" rel="noopener">Bucles <code>while</code> y <code>do ... while</code></a></li>
+              <li><a href="https://es.javascript.info/operators#incremento-decremento" target="_blank" rel="noopener">Operadores de Incremento | Decremento</a></li>
+          </ul>
           </details>
           <details open><summary>Ejercicios</summary>
-            <p>&#9734; <a href="https://contenido-vario.github.io/js1/bucles-strings.html" target="_blank" rel="noopener">Bucles | Métodos de String</a></p>
+            <ul>
+              <li><a href="https://contenido-vario.github.io/js1/bucles-strings.html" target="_blank" rel="noopener">Bucles | Métodos de String</a></li>
+            </ul>
           </details>
         </article>
 
         <article>        
           <h3>Funciones y escuchadores de evento</h3>
           <details open><summary>Material de consulta</summary>
-            <p>&#9734; <a href="https://contenido-vario.github.io/js1/funciones.html" target="_blank" rel="noopener">Funciones</a></p>
-            <p>&#9734; <a href="https://contenido-vario.github.io/js1/funciones-flecha.html" target="_blank" rel="noopener">Funciones Flecha</a></p>
-            <p>&#9734; <a href="https://contenido-vario.github.io/js1/escuchadores.html" target="_blank" rel="noopener">Escuchadores de Evento</a></p>
-            <p>&#9734; <a href="https://contenido-vario.github.io/js1/temporizador.html" target="_blank" rel="noopener">Temporizadores</a></p>
-            <p>&#9734; <a href="https://contenido-vario.github.io/js1/maquina-escribir/" target="_blank" rel="noopener">Ejemplo máquina de escribir</a></p>
-            <!-- Fazt Code / Jon Mircha -->
-            <!-- ECMAScript6 - Lo que necesitas saber - Fazt -->
+            <ul>            
+              <li><a href="https://contenido-vario.github.io/js1/funciones.html" target="_blank" rel="noopener">Funciones</a></li>
+              <li><a href="https://contenido-vario.github.io/js1/funciones-flecha.html" target="_blank" rel="noopener">Funciones Flecha</a></li>
+              <li><a href="https://contenido-vario.github.io/js1/escuchadores.html" target="_blank" rel="noopener">Escuchadores de Evento</a></li>
+              <li><a href="https://contenido-vario.github.io/js1/temporizador.html" target="_blank" rel="noopener">Temporizador: <code>setInterval</code></a></li>
+              <li>Temporizador: <code>setTimeout</code></li>
+              <li><a href="https://contenido-vario.github.io/js1/maquina-escribir/" target="_blank" rel="noopener">Ejemplo máquina de escribir</a></li>
+              <!-- Fazt Code / Jon Mircha -->
+              <!-- ECMAScript6 - Lo que necesitas saber - Fazt -->
+            </ul>
           </details>
           <details open><summary>Ejercicios</summary>
-            <p>&#9734; <a href="https://contenido-vario.github.io/js1/ejercicios-funciones.html" target="_blank" rel="noopener">Ejercicios Funciones | Escuchadores</a></p>
-            <p>&#9734; <a href="https://contenido-vario.github.io/js1/repaso-funciones.html" target="_blank" rel="noopener">Repaso Funciones</a></p>
-            <p>&#9734; <a href="https://contenido-vario.github.io/js1/evaluacion-pares.html" target="_blank" rel="noopener">Evaluación por pares</a></p>            
+            <ul>
+              <li><a href="https://contenido-vario.github.io/js1/ejercicios-funciones.html" target="_blank" rel="noopener">Ejercicios Funciones | Escuchadores</a></li>
+              <li><a href="https://contenido-vario.github.io/js1/repaso-funciones.html" target="_blank" rel="noopener">Repaso Funciones</a></li>
+              <li><a href="https://contenido-vario.github.io/js1/evaluacion-pares.html" target="_blank" rel="noopener">Evaluación por pares</a></li>
+            </ul>
           </details>
         </article>
 
         <article>
           <h3><code>{Objetos}</code><br>y <code>{arrays}</code> de <code>{objetos}</code></h3>
           <details open><summary>Material de consulta</summary>
-            <p>&#9734; <a href="#">Métodos de array</a></p>
-            <p>&#9734; <a href="#">Destructuración</a></p>
+            <ul>
+              <li><a href="#">Métodos de array</a> <sup>*</sup></li>
+              <li><a href="#">Destructuración</a> <sup>*</sup></li>
+            </ul>            
           </details>
           <details open><summary>Ejercicios</summary>
-            <p>&#9734; <a href="https://contenido-vario.github.io/js1/ex-objetos.html" target="_blank" rel="noopener">Tamagotchi (Objeto Literal)</a></p>            
-            <p>&#9734; <a href="https://contenido-vario.github.io/js1/arrays-objetos.html" target="_blank" rel="noopener">Arrays de objetos</a></p>
-            <p>&#9734; Carrusel (Proyecto Examen)</p>                        
+            <ul>
+              <li><a href="https://contenido-vario.github.io/js1/ex-objetos.html" target="_blank" rel="noopener">Tamagotchi (Objeto Literal)</a></li>            
+              <li><a href="https://contenido-vario.github.io/js1/arrays-objetos.html" target="_blank" rel="noopener">Arrays de objetos</a></li>
+              <li>Carrusel (Proyecto Examen)</li>
+            </ul>
           </details>
         </article>
         
         <article>        
           <h3>Clases: <code>{class}</code></h3>
           <details open><summary>Material de consulta</summary>
-            <p>&#9734; <a href="https://contenido-vario.github.io/js1/clases.pdf" target="_blank" rel="noopener">Clases</a></p>
-            <p>&#9734; <a href="https://contenido-vario.github.io/js1/crud/CRUD.pdf" target="_blank" rel="noopener">CRUD</a></p>
-            <p>&#9734; <a href="https://contenido-vario.github.io/js1/clases-objetos/" target="_blank" rel="noopener">Ejemplo array de Tamagotchis</a></p>
-           
+            <ul>
+              <li><a href="https://contenido-vario.github.io/js1/clases.pdf" target="_blank" rel="noopener">Clases</a></li>
+              <li><a href="https://contenido-vario.github.io/js1/crud/CRUD.pdf" target="_blank" rel="noopener">CRUD</a></li>
+              <li><a href="https://contenido-vario.github.io/js1/clases-objetos/" target="_blank" rel="noopener">Ejemplo array de Tamagotchis</a></li>
+              <li>Atributos privados, atributos y métodos estáticos</li>
+            </ul>
           </details>
           <details open><summary>Ejercicios</summary>
-            <p>&#9734; <a href="https://contenido-vario.github.io/js1/clasesjs.zip" target="_blank" rel="noopener">Crear los objetos del carrusel con clases</a></p>
-            <p>&#9734; <a href="https://contenido-vario.github.io/js1/clases-objetos/ejercicio1.html" target="_blank" rel="noopener">Atributos privados</a></p> 
+            <ul>
+              <li><a href="https://contenido-vario.github.io/js1/clasesjs.zip" target="_blank" rel="noopener">Crear los objetos del carrusel con clases</a></li>
+              <li><a href="https://contenido-vario.github.io/js1/clases-objetos/ejercicio1.html" target="_blank" rel="noopener">Atributos privados</a></li>
+            </ul>
+          </details>
+        </article>
+
+        <article>        
+          <h3>Persistencia en el navegador</h3>
+          <details open><summary>Material de consulta</summary>
+            <ul>
+              <li>Cookies</li>
+              <li>Local Storage y Session Storage</li>
+              <li>IndexedDB</li>
+            </ul>
+          </details>
+          <details open><summary>Ejercicios</summary>
+
           </details>
         </article>
 
@@ -221,9 +266,10 @@
         </article>
 
         <article>        
-          <h3>AJAX: Asynchronous JavaScript And XML | APIs REST</h3>
+          <h3>AJAX: Asynchronous JavaScript And XML</h3>
           <details open><summary>Material de consulta</summary>
-            
+            <ul>
+            </ul>
           </details>
           <details open><summary>Ejercicios</summary>
 
@@ -232,11 +278,15 @@
 
 
 
+
+
       </main>
 
   <footer class="mt-20 py-8 bg-gray-800 text-white text-center">
-    <p class="text-white">&copy; 2026&copy; Material JavaScript - Volver a <a href="https://contenido-vario.github.io/materiales/" target="_blank" rel="noopener"><b class="text-cyan-100 underline underline-offset-4">Materiales del Curso</b></a></p>
+    <li class="text-white">&copy; 2026&copy; Material JavaScript - Volver a <a href="https://contenido-vario.github.io/materiales/" target="_blank" rel="noopener"><b class="text-cyan-100 underline underline-offset-4">Materiales del Curso</b></a></li>
   </footer>
+
+  
 
 </body>
 
